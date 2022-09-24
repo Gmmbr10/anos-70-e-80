@@ -117,7 +117,7 @@ q {
 
 footer {
   width: 98vw;
-  height: 15vh;
+  /* height: 15vh; */
   background: #222222;
   color: white;
 
@@ -129,4 +129,55 @@ footer {
 
 footer a {
   color: white;
+}
+
+@media (max-width: 1000px) {
+  body {
+    width: 98vw;
+    margin: 0 auto;
+  }
+
+  .head {
+    width: 98vw;
+    display: block;
+  }
+
+  .head__img--position {
+    position:absolute;
+    left: 48.5vw;
+  }
+
+  .head__links--position {
+    position: absolute;
+    top: 5em;
+    left: 24.25vw;
+  }
+
+  .introduction {
+    width: 95vw;
+  }
+
+  .film__content--layout {
+    display: block;
+  }
+
+  .film__head {
+    height: 6em
+  }
+
+  .film__img--size, .content {
+    width: 98vw;
+  }
+
+  .film__img4 {
+    width: 98vw;
+    height: 40vh;
+    background: url("https://i0.wp.com/3.bp.blogspot.com/-i19DgNVJEQk/W6EcE33mjmI/AAAAAAAABC8/z7v6iEx6wO8QNhkYeGB8VjC2qy7Z-uZfQCLcBGAs/s1600/2001-A-Space-Odyssey.png?ssl=1");
+    background-size: 100%;
+  }
+
+  footer {
+    width: 98vw;
+    display: block;
+  }
 }
