@@ -142,15 +142,19 @@ footer a {
     display: block;
   }
 
+  .head__img {
+    width: 15vw;
+  }
+
   .head__img--position {
     position:absolute;
-    left: 48.5vw;
+    left: 40%;
   }
 
   .head__links--position {
     position: absolute;
     top: 5em;
-    left: 24.25vw;
+    left: 20%;
   }
 
   .introduction {
